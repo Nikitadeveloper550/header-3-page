@@ -11,23 +11,84 @@
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
-            <nav class="justify-space-between">
-                <h1 class="fs-1">Startup 3</h1>
-                <ul class="nav-left float-left">
-                    <li> <a href="#"> Products</a> </li>
-                    <li> <a href="#">  Pricing</a></li>
-                    <li> <a href="#">Community</a>  </li>
-                </ul>
 
-                <ul class="nav-rigth float-right">
-                    <li> <a href="#">API</a></li>
-                    <li> <a href="#">Help</a> </li>
-                    <li> <a href="#">Login</a>  </li>
-                    <button> <a href="#">sign up</a></button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <h5 class="navbar-brand" href="#">Startup 3</h5>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+
+            <div class="collapse navbar-collapse  float-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">API</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+
+                    <a class="nav-link  signup-btn  button" href="#">Sign Up</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="d-flex align-items-center justify-content-center  w-100">
+        <div class="container">
+            <div class="row justify-space-between">
+                <div class="col-6  col-12  col-md-6">
+                    <p class="A-high-quality mb-5">A high-quality solution for those<br> who want a beautiful startup<br>
+                        website quickly</p>
+                    <form>
+                        <input type="email" id="email" name="email" placeholder="Your email"
+                            class="form-utility mb-3"><br>
+                        <input type="password" id="password" name="password" placeholder="Your password"
+                            class="form-utility mb-3"><br>
+                        <button class="sign-in-btn  button  mb-3  text-center">Sign in</button>
+                    </form>
+                    <p class="by-signing">By signing up, you agree to the Terms of Service</p>
+
+                </div>
+
+                <div class="col-5  col-12  col-md-5">
+                    <iframe width="470" height="265" src="https://www.youtube.com/embed/Dv7gLpW91DM?si=cASScVkMax9yhj7_" class="w-100 mb-4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <p class="we-made">We made it so beutiful and simple. It combines<br> landings, pages, blogs and shop screens. It is definitely<br> the tool you need in your collection! </p>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

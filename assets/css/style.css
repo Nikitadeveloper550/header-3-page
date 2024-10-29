@@ -1,7 +1,144 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.section
-{
+.section {
     font-family: "DM Sans";
 }
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    color: rgba(161, 161, 176) !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+li a:hover{
+
+    border: 2px solid  rgba(161, 161, 176);
+    border-radius: 15px;
+}
+
+.button {
+    background: rgba(37, 218, 197, 1);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+
+.signup-btn {
+    padding:px 20px; 
+    margin-left: 30px;
+}
+
+.sign-in-btn {
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    /* padding: 17px  204px; */
+}
+
+/* .space {
+    padding-right: 280px;
+} */
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.max-width {
+    max-width: 1170px;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 5.2rem;
+}
+
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+.A-high-quality {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    color: rgba(30, 14, 98, 1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    letter-spacing: -0.2926828861236572px;
+    color: rgba(30, 14, 98, 1);
+}
+
+.by-signing {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(161, 161, 176) !important;
+    padding-left: 60px;
+}
+
+.form-utility {
+    max-width: 470px;
+    width: 100%;
+    min-height: 60px;
+    border-radius: 100px;
+    border: 2px solid rgba(235, 236, 237);
+}
+
+::placeholder {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+#email,
+#password {
+    padding-left: 24px;
+}
+
+.sign-in-btn {
+    max-width: 470px;
+    width: 100%;
+    min-height: 60px;
+    border-radius: 100px;
+}
+
+.video-tag {
+    max-width: 470px;
+}
+
+.we-made {
+    color: rgba(161, 161, 176);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.justify-space-between
+{
+    justify-content: space-between;
+}
+
+.navbar-nav
+{
+    align-items: center;
+}
+
